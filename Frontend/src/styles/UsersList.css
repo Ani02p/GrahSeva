@@ -1,0 +1,41 @@
+.users{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.users-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.users-table {
+  width: 100%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.users-table-head th {
+  background: rgb(132, 50, 132);
+  color: white;
+  padding: 10px;
+}
+
+.users-table-head th {
+  margin-bottom: 20px;
+}
+
+.users-table-body {
+  margin-top: 50px;
+}
+
+.users-table-body tr td{
+    text-align: center;
+}
+
+/* .users-edit-btn{
+    background-color: rgb(106, 145, 106);
+} */
+
+.users-delete-btn{
+    background-color: rgb(106, 145, 106);
+}

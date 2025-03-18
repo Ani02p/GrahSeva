@@ -1,0 +1,89 @@
+
+body {
+  background-color: #add0cc /* Change this to any color you prefer */
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #006d77;
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Form inputs */
+.login-container form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Input hover effect */
+.login-container form input:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Login button */
+.login-container form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Button hover effect */
+.login-container form button:hover {
+  background-color: #0056b3;
+}
+
+/* Forgot password and sign-up links */
+.login-container .forgot-password,
+.login-container .signUP {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+.login-container .forgot-password:hover,
+.login-container .signUP:hover {
+  text-decoration: underline;
+}
+
+
+.himangi {
+  margin-top: 20px;
+}
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
